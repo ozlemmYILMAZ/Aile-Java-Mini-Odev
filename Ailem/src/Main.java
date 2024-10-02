@@ -2,14 +2,14 @@ public class Main {
     public static void main(String[] args) {
         Aile benimAilem = new Aile();
 
-        AileUyesi kayinbaba = new AileUyesi("Raşit",50,"Baba");
-        AileUyesi anne = new AileUyesi("Songül",40,"Anne");
-        AileUyesi kardes = new AileUyesi("Burak",15,"kardeş");
-        AileUyesi kardes1 = new AileUyesi("Ömer",19,"kardeş");
-        AileUyesi es = new AileUyesi("Batuhan",26,"Eş");
+        AileUyesi baba = new AileUyesi("Ali",50,"Baba");
+        AileUyesi anne = new AileUyesi("Gül",40,"Anne");
+        AileUyesi kardes = new AileUyesi("Barış",15,"kardeş");
+        AileUyesi kardes1 = new AileUyesi("Mehmet",19,"kardeş");
+        AileUyesi es = new AileUyesi("Efe",26,"Eş");
 
 
-        benimAilem.addUye(kayinbaba);
+        benimAilem.addUye(baba);
         benimAilem.addUye(anne);
 
         benimAilem.addUye(kardes);
